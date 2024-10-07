@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_components_life_at_sirius_digitech_sliders",
+  "info": {
+    "displayName": "LifeAtSiriusDigitech-Slider"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

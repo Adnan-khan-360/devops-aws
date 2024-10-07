@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_ui_components_form_fields",
+  "info": {
+    "displayName": "FormField",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "string",
+      "required": false
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "number",
+        "text",
+        "textarea",
+        "dropdown",
+        "radio",
+        "checkbox"
+      ],
+      "required": true
+    },
+    "validPattern": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.option"
+    }
+  }
+}

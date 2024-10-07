@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_components_header_actions",
+  "info": {
+    "displayName": "HeaderAction",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

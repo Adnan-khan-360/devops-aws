@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_components_about_sections",
+  "info": {
+    "displayName": "AboutSection"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.common-tab",
+      "required": true
+    }
+  }
+}

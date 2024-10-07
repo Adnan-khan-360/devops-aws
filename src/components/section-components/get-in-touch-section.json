@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_components_get_in_touch_sections",
+  "info": {
+    "displayName": "GetInTouch-Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.cta"
+    }
+  }
+}

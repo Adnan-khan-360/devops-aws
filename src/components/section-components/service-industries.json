@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_section_components_service_industries",
+  "info": {
+    "displayName": "Service-Industries"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.industry-tab"
+    }
+  }
+}

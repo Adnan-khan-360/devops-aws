@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_components_image_links",
+  "info": {
+    "displayName": "Image-Link"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

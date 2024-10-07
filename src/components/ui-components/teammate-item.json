@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ui_components_teammate_items",
+  "info": {
+    "displayName": "Teammate-Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "profession": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.social-link"
+    }
+  }
+}

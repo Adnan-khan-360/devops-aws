@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_section_components_our_services",
+  "info": {
+    "displayName": "Our Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.cta"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.service-item",
+      "required": true
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "itemTitle": {
+      "type": "string"
+    }
+  }
+}

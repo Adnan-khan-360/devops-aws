@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_components_our_services_items",
+  "info": {
+    "displayName": "Our-Services-Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.our-services-sub-item",
+      "required": true
+    }
+  }
+}

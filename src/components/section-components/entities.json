@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_components_entities",
+  "info": {
+    "displayName": "Entities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "bgImageUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.action"
+    }
+  }
+}

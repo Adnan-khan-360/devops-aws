@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_ui_components_jobs",
+  "info": {
+    "displayName": "Job"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Full time",
+        "Part time",
+        "Hybrid"
+      ],
+      "required": true,
+      "default": "Full time"
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "timePosted": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string",
+      "required": true
+    },
+    "salaryFreq": {
+      "type": "enumeration",
+      "enum": [
+        "/mo",
+        "/year"
+      ],
+      "required": true,
+      "default": "/mo"
+    }
+  }
+}

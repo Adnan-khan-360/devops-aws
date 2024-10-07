@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_components_contents",
+  "info": {
+    "displayName": "Content"
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "htmlContent": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

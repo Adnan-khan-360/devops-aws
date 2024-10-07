@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_components_service_main_banners",
+  "info": {
+    "displayName": "Service-Main-Banner"
+  },
+  "options": {},
+  "attributes": {
+    "bgMedia": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

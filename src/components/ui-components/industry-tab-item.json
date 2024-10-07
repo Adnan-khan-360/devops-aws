@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_components_industry_tab_items",
+  "info": {
+    "displayName": "Industry-Tab-Item"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

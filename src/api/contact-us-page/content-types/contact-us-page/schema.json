@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_us_pages",
+  "info": {
+    "singularName": "contact-us-page",
+    "pluralName": "contact-us-pages",
+    "displayName": "ContactUsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.banner",
+      "required": true
+    },
+    "formContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.contact-us-form",
+      "required": true
+    },
+    "faqSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.faq-section",
+      "required": true
+    },
+    "getInTouchSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.get-in-touch-section",
+      "required": true
+    },
+    "contactSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.contact-card",
+      "required": true,
+      "min": 3
+    }
+  }
+}

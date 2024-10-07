@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_components_story_items",
+  "info": {
+    "displayName": "Story-Item"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

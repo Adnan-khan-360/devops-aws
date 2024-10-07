@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_section_components_hero_banners",
+  "info": {
+    "displayName": "Hero Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.cta",
+      "required": true
+    },
+    "bannerActions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.banner-action"
+    }
+  }
+}

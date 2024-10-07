@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_components_our_teammates",
+  "info": {
+    "displayName": "Our Teammates",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui-components.teammate-item"
+    }
+  }
+}

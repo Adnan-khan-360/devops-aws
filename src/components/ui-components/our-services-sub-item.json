@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_components_our_services_sub_items",
+  "info": {
+    "displayName": "Our-Services-SubItem"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

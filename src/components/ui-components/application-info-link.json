@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_components_application_info_links",
+  "info": {
+    "displayName": "Application-Info-Link"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "linkText": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

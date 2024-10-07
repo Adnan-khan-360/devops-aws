@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.about-main-banner",
+      "required": true
+    },
+    "visionMission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.about-section"
+    },
+    "ourTeammates": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.our-teammates"
+    },
+    "ourStory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.our-story"
+    },
+    "storyImages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui-components.story-images"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_components_fa_q_items",
+  "info": {
+    "displayName": "FaQ-Item"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

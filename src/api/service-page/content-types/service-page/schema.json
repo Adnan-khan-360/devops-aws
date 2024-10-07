@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_pages",
+  "info": {
+    "singularName": "service-page",
+    "pluralName": "service-pages",
+    "displayName": "ServicePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.service-main-banner"
+    },
+    "industries": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.service-industries"
+    },
+    "ourServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.services",
+      "required": true
+    }
+  }
+}

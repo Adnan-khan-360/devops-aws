@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_components_value_items",
+  "info": {
+    "displayName": "Value-Item"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

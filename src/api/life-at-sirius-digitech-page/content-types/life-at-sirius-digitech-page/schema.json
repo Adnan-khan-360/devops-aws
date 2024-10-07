@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "life_at_sirius_digitech_pages",
+  "info": {
+    "singularName": "life-at-sirius-digitech-page",
+    "pluralName": "life-at-sirius-digitech-pages",
+    "displayName": "LifeAtSiriusDigitechPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teamSlider": {
+      "displayName": "Team-Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.team-slider"
+    },
+    "mainSlider": {
+      "displayName": "LifeAtSiriusDigitech-Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "section-components.life-at-sirius-digitech-slider"
+    },
+    "jobProfiles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.job-profile",
+      "required": true
+    },
+    "applicationSteps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.application-step-section",
+      "required": true
+    },
+    "values": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-components.values",
+      "required": true
+    }
+  }
+}
